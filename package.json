@@ -31,7 +31,7 @@
         "web-vitals": "^1.1.1"
     },
     "devDependencies": {
-        "@babel/core": "7.12.3",
+        "@babel/core": "^7.14.0",
         "@babel/preset-env": "^7.14.0",
         "@babel/preset-react": "^7.13.13",
         "@cypress/code-coverage": "^3.9.5",
@@ -70,7 +70,7 @@
         "dotenv": "8.2.0",
         "dotenv-expand": "5.1.0",
         "enzyme": "^3.11.0",
-        "enzyme-adapter-react-16": "^1.15.6",
+        "enzyme-adapter-react-17-updated": "^1.0.2",
         "enzyme-to-json": "^3.6.2",
         "eslint": "^7.25.0",
         "eslint-config-airbnb-typescript": "^12.3.1",
