@@ -1,0 +1,36 @@
+# https://docs.docker.com/compose/compose-file/
+#https://github.com/compose-spec/compose-spec/blob/master/spec.md
+version: "3.8"
+services:
+  mongodb:
+    image: "mongo"
+    volumes:
+      - data:/data/db
+    env_file:
+      - ./env/mongo.env
+  nodeservice:
+    build: ./nodeservice
+    ports:
+      - "8000:8000"
+    volumes:
+      - logs:/app/logs
+      - ./nodeservice:/app
+      - /app/node_modules
+    env_file:
+      - ./env/nodeservice.env
+    depends_on:
+      - mongodb
+  reactapp:
+    build: ./reactapp
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./reactapp/src:/app/src
+    stdin_open: true
+    tty: true
+    depends_on:
+      - nodeservice
+
+volumes:
+  data:
+  logs:
