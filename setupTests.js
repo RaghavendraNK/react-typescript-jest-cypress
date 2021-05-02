@@ -1,5 +1,5 @@
 import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-17-updated';
 import sinon from 'sinon';
 import { expect } from 'chai';
 
