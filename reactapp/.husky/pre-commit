@@ -1,12 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test
-npm run pretty-quick-staged
-npm run scss-lint-fix
-npm run scss-lint
-npm run test-coverage
-npm run cypress-test
-npm run prettier-format
-npm run lint-fix
-npm run lint
+npm run lint-all-fix
+npm run lint-all
+npm run test-all
+
+
