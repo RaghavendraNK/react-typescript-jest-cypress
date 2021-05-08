@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+<div
+  id="home"
+>
+  <ForwardRef
+    description="en:home-description"
+    header="en:home-header"
+  />
+  <k
+    items={
+      Array [
+        <Unknown
+          details={
+            Object {
+              "actions": Array [
+                Object {
+                  "icon": <Memo />,
+                  "key": "addNewArticle",
+                  "label": "en:home-addNewArticle",
+                  "path": "/addNewArticle",
+                  "type": "add",
+                },
+                Object {
+                  "icon": <Memo />,
+                  "key": "manageArticles",
+                  "label": "en:home-manageArticles",
+                  "path": "/manageArticles",
+                  "type": "edit",
+                },
+              ],
+              "count": 3,
+              "description": "en:home-articledescription",
+              "handleClick": [Function],
+              "header": "en:home-totalarticles",
+            }
+          }
+          type="CardAction"
+        />,
+      ]
+    }
+    name="settings"
+    sizes={
+      Object {
+        "lg": 3,
+        "md": 3,
+        "sm": 12,
+        "xs": 12,
+      }
+    }
+    spacing={2}
+  />
+</div>
+`;

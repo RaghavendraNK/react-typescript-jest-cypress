@@ -1,10 +1,11 @@
 {
-    "baseUrl": "http://localhost:3000/",
+    "baseUrl": "https://fullstack-demo-e2e.herokuapp.com/signin",
     "chromeWebSecurity": false,
     "viewportWidth": 1920,
     "viewportHeight": 1080,
     "experimentalStudio": true,
     "experimentalFetchPolyfill": true,
     "experimentalInteractiveRunEvents": true,
-    "experimentalSourceRewriting": true
+    "experimentalSourceRewriting": true,
+    "skipLibCheck": true
 }

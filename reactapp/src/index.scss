@@ -1,0 +1,37 @@
+@import './assets/styles/index';
+@import './components/SignIn/index';
+@import './components/SignUp/index';
+@import './components/Main/index';
+@import './components/Utils/index';
+@import './components/Articles/index';
+@import './components//EditProfile/index';
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    #root {
+        height: 100%;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $neutral-050;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $neutral-700;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $neutral-900;
+}

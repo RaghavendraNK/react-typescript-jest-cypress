@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleDetails should match snapshot 1`] = `
+<div
+  id="articleDetails"
+>
+  <Component
+    handleClick={[Function]}
+    paths={
+      Array [
+        Object {
+          "id": "homeLink",
+          "label": "Home",
+          "path": "/home",
+        },
+        Object {
+          "id": "manageArticles",
+          "label": "Manage Articles",
+          "path": "/manageArticles",
+        },
+        Object {
+          "id": "",
+          "label": "FullStack",
+          "path": "",
+        },
+      ]
+    }
+  />
+  <C
+    size={4}
+    text="Ch.5 FullStack Development"
+  />
+  <k
+    containerCss=""
+    itemCss=""
+    items={
+      Array [
+        <React.Fragment>
+          <img
+            alt="article"
+            className="imgClass"
+            src="sample.jpg"
+          />
+          <div
+            className="articleBody"
+          >
+            <g
+              size={2}
+              text=" Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            />
+            <g
+              size={2}
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nulla et suscipit senectus blandit mi. Diam vel faucibus diam lorem dictum. Varius phasellus blandit egestas malesuada euismod risus id semper cursus. Nulla felis et auctor viverra id phasellus odio venenatis hac."
+            />
+            <g
+              size={2}
+              text="Diam vel faucibus diam lorem dictum. Varius phasellus blandit egestas malesuada euismod risus id semper cursus. Nulla felis et auctor viverra id phasellus odio venenatis hac."
+            />
+          </div>
+        </React.Fragment>,
+      ]
+    }
+    name="articleDetails"
+    sizes={
+      Object {
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+      }
+    }
+    spacing={6}
+  />
+</div>
+`;

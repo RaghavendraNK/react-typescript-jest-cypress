@@ -1,14 +1,32 @@
 {
-    "roots": ["<rootDir>/src"],
-    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.d.ts"],
-    "setupFiles": ["./setupTests.js", "react-app-polyfill/jsdom"],
-    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.ts"],
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/**/*.d.ts"
+    ],
+    "setupFiles": [
+        "./setupTests.js",
+        "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+        "<rootDir>/src/setupTests.ts"
+    ],
+    "modulePathIgnorePatterns": [
+        "<rootDir>/src/i18n",
+        "<rootDir>/src/routes.tsx",
+        "<rootDir>/src/index.tsx",
+        "<rootDir>/src/reportWebVitals.ts",
+        "<rootDir>/src/store/actionTypes.ts",
+        "<rootDir>/src/store/index.ts"
+    ],
     "testMatch": [
         "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
         "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jsdom",
-    "testRunner": "/home/raghavendra/Documents/Github/react-typescript-jest-cypress/node_modules/jest-circus/runner.js",
+    "testRunner": "jest-circus/runner",
     "transform": {
         "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/config/jest/babelTransform.js",
         "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
@@ -40,7 +58,9 @@
         "jest-watch-typeahead/testname"
     ],
     "resetMocks": true,
-    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+    ],
     "coverageThreshold": {
         "global": {
             "branches": 0,

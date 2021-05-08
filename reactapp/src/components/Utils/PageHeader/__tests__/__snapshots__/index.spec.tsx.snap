@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader should match snapshot 1`] = `
+<div
+  id="pageHeader"
+>
+  <div
+    className="page-header"
+  >
+    <C
+      size={4}
+      text="header"
+    />
+  </div>
+  <div
+    className="page-header-helper"
+  >
+    <g
+      size={2}
+      text="description"
+    />
+  </div>
+</div>
+`;
