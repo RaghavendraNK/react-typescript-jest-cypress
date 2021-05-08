@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp should match snapshot 1`] = `
+<div
+  id="signUp"
+>
+  <div
+    className="sign-up"
+  >
+    <div
+      className="sign-up-form"
+    >
+      <div
+        className="logo-wrapper form-row mar-b-16"
+      >
+        <Component
+          height={28}
+          isLogoWithTitle={true}
+          logoTitle="LogoTitle.svg"
+          width={112}
+        />
+      </div>
+      <div
+        className="form-row mar-b-20"
+      >
+        <b
+          id="emailAddressTxtField"
+          label="en:emailaddress"
+          variant="outlined"
+        />
+      </div>
+      <div
+        className="form-row mar-b-12"
+      >
+        <b
+          id="passwordTxtField"
+          label="en:newpassword"
+          type="password"
+          variant="outlined"
+        />
+      </div>
+      <div
+        className="form-row link mar-b-20"
+      >
+        <Component
+          checked={true}
+          text={<TermsAndConditions />}
+        />
+      </div>
+      <div
+        className="form-row"
+      >
+        <f
+          dense={40}
+          id="signUpBtn"
+          label="en:signuphere"
+          variant="filled"
+        />
+      </div>
+    </div>
+    <div
+      className="sign-up-here-section"
+    >
+      <div
+        className="sign-up-helper-message"
+      >
+        en:haveaccount
+      </div>
+       
+      <f
+        id="signUpLink"
+        label="en:signinhere"
+        onClick={[Function]}
+        variant="link"
+      />
+    </div>
+  </div>
+</div>
+`;

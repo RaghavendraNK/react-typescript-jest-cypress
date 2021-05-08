@@ -1,0 +1,16 @@
+#pageHeader {
+    .page-header {
+        margin-bottom: 8px;
+        @media only screen and (min-width: $rruc-desktop) {
+            margin-bottom: 6px;
+        }
+    }
+
+    .page-header-helper {
+        max-width: 520px;
+        margin-bottom: 24px;
+        @media only screen and (min-width: $rruc-desktop) {
+            margin-bottom: 48px;
+        }
+    }
+}

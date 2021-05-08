@@ -1,0 +1,14 @@
+#articleDetails {
+    .imgClass {
+        max-width: 400px;
+        max-height: 200px;
+        @media only screen and (min-width: $rruc-desktop) {
+            max-width: 100%;
+            max-height: 400px;
+        }
+    }
+    #RRUCGridItem {
+        display: flex;
+        flex-direction: column;
+    }
+}

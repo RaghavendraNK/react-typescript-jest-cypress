@@ -1,0 +1,85 @@
+@import './_fonts';
+@import './_variables';
+@import './_colors';
+@import './_spacing-helpers';
+@import './_height';
+
+.d-flex-horizontal-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-vertical-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiPopover-root.RRUCNavBarMenuWrapper {
+    max-width: 260px;
+
+    .MuiPaper-root {
+        width: 100%;
+
+        .MuiMenu-list {
+            .MuiMenuItem-root {
+                position: static;
+                top: 8px;
+                left: 0;
+                width: 100%;
+                padding: 16px;
+                @extend .Inter-Regular;
+                background-color: $white;
+                color: $neutral-800;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                line-height: 24px;
+                &:hover {
+                    background-color: $neutral-200;
+                }
+
+                .icon {
+                    display: flex;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
+
+.MuiPopover-root {
+    max-width: 260px;
+    .MuiPaper-root {
+        width: 100%;
+
+        .MuiMenu-list {
+            .MuiMenuItem-root {
+                position: static;
+                top: 8px;
+                left: 0;
+                width: 100%;
+                height: 40px;
+                padding-top: 0;
+                @extend .Inter-Regular;
+                padding-bottom: 0;
+                background-color: $white;
+                color: $neutral-800;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                line-height: 24px;
+                &:hover {
+                    background-color: $neutral-200;
+                }
+            }
+        }
+    }
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-rounded {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px rgba(0, 0, 0, 0.12),
+        0 1px 5px rgba(0, 0, 0, 0.2);
+}

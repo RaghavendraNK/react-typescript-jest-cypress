@@ -1,0 +1,19 @@
+@import './AddNewStaff/index';
+@import './ManageStaff/index';
+
+#home {
+    #RRUCGridItem {
+        #RRUCCard {
+            .card-stats {
+                .card-actions {
+                    margin: 0 -24px 0 -24px;
+
+                    padding-top: 20px;
+                    .card-btn-wrapper {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

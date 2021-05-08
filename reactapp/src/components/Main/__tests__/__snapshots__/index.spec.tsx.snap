@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should match snapshot 1`] = `
+<ContextProvider
+  value={false}
+>
+  <div
+    id="mainSection"
+  >
+    <Component
+      footerMenuItems={
+        Array [
+          Object {
+            "icon": <Memo />,
+            "path": "/signin",
+            "title": "en:logout",
+          },
+        ]
+      }
+      handleMenuClick={[Function]}
+      isTabletOrMobile={false}
+      logo={
+        <Unknown
+          height={32}
+          isLogoWithTitle={true}
+          logoIcon="Logo.svg"
+          logoTitle="LogoTitle.svg"
+          width={116}
+        />
+      }
+      mainMenuItems={
+        Array [
+          Object {
+            "description": "en:profile-description",
+            "icon": <Memo />,
+            "path": "/editProfile",
+            "title": "en:profile",
+          },
+        ]
+      }
+      onMenuClick={[Function]}
+      profileDetails={
+        <div
+          className="profile"
+        >
+          <div
+            className="icon"
+          >
+            <svg
+              fill="none"
+              height="40"
+              viewBox="0 0 40 40"
+              width="40"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="20"
+                cy="20"
+                fill="#EEEEEE"
+                r="19.5"
+                stroke="#BDBDBD"
+              />
+            </svg>
+          </div>
+        </div>
+      }
+    />
+    <div
+      className="content-body"
+    >
+      <Component
+        footerMenuItems={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "path": "/settings",
+              "title": "Settings",
+            },
+            Object {
+              "icon": <Memo />,
+              "path": "",
+              "title": "Support",
+            },
+          ]
+        }
+        handleMenuClick={[Function]}
+        isTabletOrMobile={false}
+        mainMenuItems={
+          Array [
+            Object {
+              "icon": <Memo />,
+              "path": "/home",
+              "title": "Home",
+            },
+            Object {
+              "icon": <Memo />,
+              "path": "/articles",
+              "title": "Articles",
+            },
+          ]
+        }
+        selectedItem="Home"
+      />
+      <div
+        className="children"
+      >
+        <div>
+          <div
+            key="child"
+          >
+            ChildCOmponents
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ContextProvider>
+`;
